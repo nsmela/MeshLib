@@ -1,0 +1,11 @@
+{
+  "inputFilePath": "../../MRMeshC/MRBox.h",
+  "userIncludeDirectories": [
+    "../../MRMeshC/"
+  ],
+  "targetPlatforms": {
+    "windows": {
+      "x86_64-pc-windows-msvc": {}
+    }
+  }
+}

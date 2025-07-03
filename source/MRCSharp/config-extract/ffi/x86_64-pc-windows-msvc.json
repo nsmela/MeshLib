@@ -1,0 +1,25 @@
+{
+  "file_name": "C:\\Users\\nsmel\\Programming\\MeshLib\\source\\MRMeshC\\MRMesh.h",
+  "platform_requested": "x86_64-pc-windows-msvc",
+  "platform_actual": "x86_64-pc-windows-msvc19.44.35209",
+  "system_include_directories": [
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\cppwinrt",
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared",
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt",
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um",
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt",
+    "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+  ],
+  "user_include_directories": [
+    "C:\\Users\\nsmel\\Programming\\MeshLib\\source\\MRMeshC\\"
+  ],
+  "pointer_size": 8,
+  "macro_objects": {},
+  "variables": {},
+  "functions": {},
+  "records": {},
+  "enums": {},
+  "aliases": {},
+  "opaques": {},
+  "function_pointers": {}
+}
