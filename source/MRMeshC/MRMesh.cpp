@@ -8,6 +8,7 @@
 #include "MRMesh/MRBuffer.h"
 #include "MRMesh/MRMesh.h"
 #include "MRMeshPart.h"
+#include "MRMesh/MRMesh"
 
 #include <span>
 
@@ -15,6 +16,7 @@ using namespace MR;
 
 REGISTER_AUTO_CAST( AffineXf3f )
 REGISTER_AUTO_CAST( Box3f )
+REGISTER_AUTO_CAST( Contours3f )
 REGISTER_AUTO_CAST( EdgeId )
 REGISTER_AUTO_CAST( UndirectedEdgeId )
 REGISTER_AUTO_CAST( FaceBitSet )
@@ -219,4 +221,10 @@ MRVector3f mrMeshNormalFromVert( const MRMesh* mesh_, MRVertId v_ )
 {
     ARG( mesh ); ARG_VAL( v );
     RETURN( mesh.normal( v ) );
+}
+
+MREdgeId mrAddSeparateContours( const MRMesh* mesh_, const MRContours3f* contours_, const MRAffineXf3f* xf_ )
+{
+    ARG( mesh ); ARG( contours ); ARG( xf );
+    RETURN( Mesh::addSeparateContours ); 
 }

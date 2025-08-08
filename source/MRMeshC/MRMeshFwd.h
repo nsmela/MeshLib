@@ -51,6 +51,7 @@ typedef struct MRPointCloud MRPointCloud;
 typedef struct MRPointsLoadSettings MRPointsLoadSettings;
 
 typedef struct MRSaveSettings MRSaveSettings;
+typedef struct MRContours3f MRContours3d;
 
 typedef bool (*MRProgressCallback)( float );
 

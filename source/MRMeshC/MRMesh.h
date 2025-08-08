@@ -116,4 +116,6 @@ MRMESHC_API MRVector3f mrMeshNormalFromVert( const MRMesh* mesh, MRVertId v );
 /// converts face id and 3d point into barycentric representation
 MRMESHC_API MRMeshTriPoint mrToTriPoint( const MRMesh* mesh, MRFaceId f, MRVector3f point );
 
+MRMESHC_API MREdgeId mrAddSeparateContours( const MRMesh* mesh, const Contours3f* contours, const MRAffineXf3f* xf );
+
 MR_EXTERN_C_END
