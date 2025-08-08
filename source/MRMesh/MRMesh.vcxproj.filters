@@ -2192,6 +2192,7 @@
     <ClCompile Include="MRCylinderApproximator.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
+    <ClCompile Include="MRProgressCallback.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" />

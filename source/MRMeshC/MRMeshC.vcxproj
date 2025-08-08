@@ -71,6 +71,7 @@
     <ClInclude Include="MRPointsLoadSettings.h" />
     <ClInclude Include="MRPointsSave.h" />
     <ClInclude Include="MRPrecisePredicates3.h" />
+    <ClInclude Include="MRProgressCallback.h" />
     <ClInclude Include="MRRegionBoundary.h" />
     <ClInclude Include="MRRelaxParams.h" />
     <ClInclude Include="MRSaveSettings.h" />
@@ -147,6 +148,7 @@
     <ClCompile Include="MRPointsLoadSettings.cpp" />
     <ClCompile Include="MRPointsSave.cpp" />
     <ClCompile Include="MRPrecisePredicates3.cpp" />
+    <ClCompile Include="MRProgressCallback.cpp" />
     <ClCompile Include="MRRegionBoundary.cpp" />
     <ClCompile Include="MRRelaxParams.cpp" />
     <ClCompile Include="MRSaveSettings.cpp" />
